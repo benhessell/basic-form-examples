@@ -1,0 +1,16 @@
+// General Colors
+$color_green: rgb(235, 230, 217);
+$color_blue: rgb(122, 122, 255);
+$color_dark-blue: rgb(60, 60, 128);
+$color_light-blue: rgba(80, 80, 185, 0.5);
+$color_black: black;
+
+// App Colors
+$color_primary: $color_dark-blue;
+$color_secondary: $color_green;
+$color_tertiary: $color_light-blue;
+
+$color_nav: $color_primary;
+$color_main: $color_secondary;
+$color_footer: $color_black;
+

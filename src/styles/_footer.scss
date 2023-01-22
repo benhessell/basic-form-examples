@@ -1,0 +1,12 @@
+.footer{
+    background-color: $color_footer;
+    color: white;
+    padding: 20px 20px 20px 40px;
+    font-weight: 200;
+    height: $footer_height;
+    box-sizing: border-box;
+
+    a {
+        color: white;
+    }
+}

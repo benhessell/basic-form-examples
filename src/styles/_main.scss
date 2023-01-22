@@ -1,0 +1,27 @@
+.main {
+    width: 50%;
+    max-width: $screen_size-medium;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+@media (max-width: $screen_size-large) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media (max-width: $screen_size-medium) {
+    .main {
+        width: 80%;
+    }
+}
+
+@media (max-width: $screen_size-x-x-small) {
+    .main {
+        width: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+.home-page {
+    // text-align: center;
+}
+
+.button-a {
+    color: $color-primary;
+    background-color: transparent;
+    border: 2px solid $color-primary;
+    border-radius: 0px;
+    padding: 5px 10px;
+    display: inline;
+    margin: 0px 10px;
+
+    &:hover {
+        color: white;
+        background-color: $color-primary;
+    }
+
+    &:active {
+        color: white;
+        background-color: $color-primary;
+        text-decoration: white 2px underline;
+    }
+}
+
+.back-button {
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px black solid;
+    padding: 0px 10px;
+
+    &:hover {
+        background-color: $color-primary;
+        color: white;
+    }
+}
+
+.form-buttons {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,11 @@
+html, #root, body, .window_page {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.window_main {
+    background-color: $color_main;
+    min-height: calc(100% - #{$nav_height} - #{$footer_height});
+}
